@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type="text/xsl" href="kontakt_stil.xsl"?>
+<kontakti>
+	<kontakt>
+		<ime>Pera</ime>
+		<prezime>Peric</prezime>
+		<email>pera@pera.com</email>
+		<telefon>0644444444</telefon>
+	</kontakt>
+	<kontakt>
+		<ime>Marko</ime>
+		<prezime>Markovic</prezime>
+		<email>marko@marko.com</email>
+		<telefon>0645555555</telefon>
+	</kontakt>
+	<kontakt>
+		<ime>Djoka</ime>
+		<prezime>Djokovic</prezime>
+		<email>djoka@djoka.com</email>
+		<telefon>063333333</telefon>
+	</kontakt>
+	<kontakt>
+		<ime>Mitar</ime>
+		<prezime>Mitrovic</prezime>
+		<email>mitar@mitar.com</email>
+		<telefon>063456655</telefon>
+	</kontakt>
+</kontakti>

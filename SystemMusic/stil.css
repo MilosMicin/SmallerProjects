@@ -1,0 +1,283 @@
+body{
+		margin:0 0;
+		padding:0 0;
+		background:url('slike/crno.jpg') no-repeat;
+		background-position:top;
+		background-attachment:fixed;
+		color:#FFFFFF;
+		background-size:100%;
+		font-family:sans;
+	}
+.container{
+			width:800px;
+			height:900px;
+			margin:1% auto;
+			border:none;
+		  }
+.zaglavlje{
+			overflow:hidden;
+			margin:0 0 0 0.4%;
+			border-radius:10px;
+		  }
+.meni{
+		overflow:hidden;
+		border:none;
+	 }
+.meni ul{
+		list-style-type:none;
+		overflow:hidden;
+	   }
+.meni ul li{
+		float:left;
+		margin:0 .3em;
+	  }
+.meni a:link, a:visited{
+						display:block;
+						color:#fff;
+						background-color:#92712B;
+						text-align:center;
+						font-size:1.6em;
+						text-decoration:none;
+						border-radius:6px;
+						padding:0 0.4em;
+					   }
+.meni a:hover, a:active{
+						color:red;
+						background-color:#92712B;
+				      }
+.slika{
+		height:22%;
+		border:none;
+		overflow:hidden;
+		margin:0 0 2% 0;
+		border-radius:10px;
+
+      }
+     
+.slika img{
+			width:100%;
+			height:100%;
+		 }
+.omot_sadrzaj{
+				
+			 }
+.leva_kolona, .desna_kolona, .leva_kolona2, #tekst, #klijenti{
+												font-size:1.2em;
+												color:#fff;
+												text-align:justify;
+												border-radius:5px;
+												overflow:hidden;
+												background:url('slike/pozadina.png');
+												background-size:100%;
+						   }
+.leva_kolona{
+				
+				width:20%;
+				float:left;
+				margin:1%;
+				background:none;
+			}
+.leva_kolona2{
+				
+				width:20%;
+				float:left;
+				margin:7.5% 0 0 0;
+				background:none;
+				}
+.desna_kolona{
+				width:72%;
+				float:right;
+				margin:1%;
+				padding:1%;
+				color:#A68C00;
+				
+			 }
+.footer{
+			width:99%;
+			overflow:hidden;
+	   }
+.footer a, .desna_kolona a{
+							font-size:1.2em;
+							color:#FFAE00;
+							margin:0;
+							text-decoration:none;
+							font-weight:bold;
+		}
+.footer span{
+				font-size:1em;
+				color:#FFAE00;
+				float:right;
+		   }
+.cisti{
+			clear:both;
+	   }
+.leva_kolona  ul{
+				list-style-type:none;
+				overflow:hidden;
+				margin:0 0 0 -2.1em;
+			  }
+.leva_kolona  li{
+				margin:0 0 0.3em 0;
+			  }	   
+.leva_kolona  a:link, a:visited{
+						display:block;
+						color:#fff;
+						background-color:#92712B;
+						text-align:center;
+						font-size:1em;
+						text-decoration:none;
+						border-radius:6px;
+					   }
+.leva_kolona  a:hover, a:active{
+						color:#red;
+						background-color:#5c9fff;
+				      }
+.leva_kolona2  ul{
+				list-style-type:none;
+				overflow:hidden;
+				margin:0 0 0 -2.1em;
+			  }
+.leva_kolona2  li{
+				margin:0 0 0.3em 0;
+			  }	   
+.leva_kolona2  a:link, a:visited{
+						display:block;
+						color:#fff;
+						background-color:#92712B;
+						text-align:center;
+						font-size:1em;
+						text-decoration:none;
+						border-radius:6px;
+					   }
+.leva_kolona2  a:hover, a:active{
+						color:#red;
+						background-color:#5c9fff;
+				      }
+div.slikaa{margin:2px;
+		 height:auto;
+		 width:auto;
+		 float:left;
+		 text-align:center;
+		}
+div.slikaa img{ 	display:inline;
+				margin:3px;
+				border:1px solid #ccc;
+				border-radius:5px;
+			}
+div.slikaa a:hover img{ 
+						border:1px solid #0000ff;
+						width:200px;
+						height:200px;
+					}
+div.opis{
+			text-align:center; 
+			font-weight:normal; 
+			width:120px; 
+			margin:2px;
+			border:1px solid #ccc;
+			border-radius:5px;
+		}
+
+.desna_kolona h2, #tekst h2, #klijenti h2, h4{
+											color:#ccc;
+											text-align:center;
+										}
+.desna_kolona span{
+					font-weight:bold;
+				}
+#tekst{
+			padding:1%;
+			margin:1%;
+		}
+.item{
+			margin:2%;
+			float:left;
+		}
+#cene{
+            margin:2px;
+			font-size:23px;
+			color:#E66C2C;
+			
+        }
+#box1{
+			text-align:left; 
+            width:25%;
+			height:40%;
+		    float:left;
+			margin:0% 0% 0% 0%;
+			padding:2%;
+			font-size:0.7em;
+			border-right: 1px #ddd solid;
+			overflow-y: scroll;
+		}
+
+.dimenzije{
+				width:145px;
+				height:120px;
+				border-radius:3px;
+				
+				
+			}
+
+#klijenti{
+				margin:1%;
+			}
+#mail{
+			color:#fff;
+		}
+		
+/*Kontakt*/
+#kontakt,#kontakt2{
+			font-size:1.2em;
+			color:#fff;
+			text-align:justify;
+			border-radius:5px;
+			overflow:hidden;
+			background:url('slike/pozadina.png');
+			background-size:100%;	
+		}
+#kontakt{
+			width:30%;
+			float:left;
+			margin:1%;	
+			padding:1%;
+		}
+#kontakt1{
+			display:table;
+			width:100%;
+		}
+#kontakt2{
+			width:50%;
+			float:right;
+			margin:1%;
+			padding:1%;
+		}
+/*Ja*/
+#ja_body{
+		background:none;
+		background-color:#232019;
+	}
+#ja_container{
+			margin:7% auto;
+			width:1200px;
+			background:url('slike/ja.jpg') no-repeat;
+			background-size:48%;
+			text-align:justify;
+			border-radius:10px;
+
+		  }
+#ja_levi{
+		margin:0 0 0 48%;
+		width:50%;
+		padding:1%;
+		color:#fff;
+		background:url('slike/pozadina.png');
+		background-size:100%;
+		border-radius:7px;
+	}
+#ja_levi h2{
+			text-align:center;
+		}
+#ja_levi p{
+			font-size:1.6em;
+		}

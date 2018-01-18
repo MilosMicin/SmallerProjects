@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vesti_stil.xsl"?>
+<rss version="2.0">
+<channel>
+	<title>Vesti</title>
+	<link>http://knjizarasvet.site50.net/</link>
+	<description></description>
+	<item>
+		<title>Vest1</title>
+		<link>http://knjizarasvet.site50.net/</link>
+		<description>Obaveštenje o otvaranju novog objekta "Knjižare svet" u Beogradu.</description>
+	</item>
+	<item>
+		<title>Vest2</title>
+		<link>http://knjizarasvet.site50.net/</link>
+		<description>Obaveštenje o otvaranju novog objekta "Knjizare svet" u Novom Sadu.</description>
+	</item>
+	<item>
+		<title>Vest3</title>
+		<link>http://knjizarasvet.site50.net/</link>
+		<description>Obaveštenje o popustu na sve knjige domaćih autora!</description>
+	</item>
+</channel>
+</rss>

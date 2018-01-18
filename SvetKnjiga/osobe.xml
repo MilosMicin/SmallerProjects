@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="klub_stil.xsl"?>
+<osobe>
+	<osoba pol ="m">
+		<name>pera</name>
+		<email>pera@pera.com</email>
+		<password>peraTerminator1</password>
+		<confPassword>peraTerminator1</confPassword>
+	</osoba>
+	<osoba pol ="z">
+		<name>marica</name>
+		<email>marica@marica.com</email>
+		<password>maki5</password>
+		<confPassword>maki5</confPassword>
+	</osoba>
+	<osoba pol ="m">
+		<name>djura</name>
+		<email>djura@djura.com</email>
+		<password>djurica6</password>
+		<confPassword>djurica6</confPassword>
+	</osoba>
+	<osoba pol ="m">
+		<name>djole</name>
+		<email>djole@djole.com</email>
+		<password>djole6</password>
+		<confPassword>djole6</confPassword>
+	</osoba>
+	<osoba pol ="z">
+		<name>nata</name>
+		<email>nata@nata.com</email>
+		<password>nata6</password>
+		<confPassword>nata6</confPassword>
+	</osoba>
+</osobe>

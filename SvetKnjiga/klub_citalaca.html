@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<script type="text/javaScript" src="jquery.min.js"></script>
+		<title>Klub citalaca | Knjižara svet</title>
+		<link rel="stylesheet" type="text/css" href="stil.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+		<script type="text/javascript" src = "klub.js">
+		</script>
+		<link rel="shortcut icon"href="slike/logo.png"/>
+	</HEAD>
+	<BODY>
+		<div id = "omot">
+			<div id = "zaglavlje">
+				<div id= "zaglavlje_slika">
+					<a href="index.htm">
+						<img src="slike/logo.jpg"/>
+					</a>
+				</div>
+			</div>
+			<div id = "sadrzaj">
+				<div id= "sadrzaj_levo">
+					<div id = "meni">
+						Meni
+						<ul>
+							<li><a href = "domaci_naslovi.html">Domaci naslovi</a></li>
+							<li><a href = "strani_naslovi.html">Strani naslovi</a></li>
+							<li><a href = "deciji_naslovi.html">Deciji naslovi</a></li>
+							<li><a href = "klub_citalaca.html">Klub citalaca</a></li>
+							<li><a href = "kontakt.html">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id= "sadrzaj_desno">
+				<p>
+				Klub čitalaca je napravljen pre svega da bi se stvarala komunikacija između ljudi
+				i upoznavanja ljudi sa manje popularnim, mladim ali i dobrim piscima i njihovim delima.
+				</p>
+				<p>
+				Prednost članova kluba čitalaca je ta da neke knjige mogu dobiti pre roka kojim je predviđeno
+				da se puste u prodaju. Mogu da učestvuju u javnim raspravama, da komentarišu pročitane sadržaje
+				i da podele mišljenje sa drugim članovima. Takođe mogu ogekivati dolaske autora raznih dela što
+				može dovesti do dublje analize određene knjige i bržeg otkrića onoga "Šta je pisac hteo reći".
+				</p>
+				<p>
+				Ovo može biti savršena prilika za ljude koji vole književnost i prilika da urade i nauče nešto 
+				novo i korisno. Ako ste takva osoba koja voli aventure i priče nemojte oklevati nego privajite
+				se, prijava je besplatna.
+				</p>
+					<div id = "forma">
+						<form name = "forma">
+							<table style="width:450px; padding:10%;">
+								<tr>
+									<th>
+										<h3>Forma</h3>
+									</th>
+								</tr>
+								<tr>
+									<td>
+									Screen name:<input type = "text" id ="ime"/>
+									</td>
+									<td>
+									Email:<input type = "text" id ="email"/>
+									</td>
+								</tr>
+								<tr>	
+									<td>
+									Password:<input type = "password" id = "password"/>
+									</td>
+									<td>
+									Conf Password:<input type = "password" id = "confPassword"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Pol:
+										<input type = "radio" name = "rdbPol" value = "P1">Muški
+										<input type = "radio" name = "rdbPol" value = "P2">Ženski
+									</td>
+									<td>
+										<input type="button" value="Prijavi" class="dugme"  onClick="prijava();"/>
+										<input type="reset" value="Ponisti" class="dugme" />
+									</td>
+								</tr>
+							</table>
+						</form>
+					</div>
+					<div id = "provera">
+						<p>
+							Ovaj deo sluzi za proveru registracije u nasu bazu podataka!
+							Unesite svoju email adresu. Ako vam se ispod forme pojavi vas Screen name
+							znaci da je forma uneta.
+						</p>
+						<form name = "provera" style="float:right;">
+							<table>
+								<tr>
+									<td>
+										Email:
+										<input type = "text" id="email" onblur="provera(this);"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="button" value="Prijavi" class="dugme" onclick = "pronadji();"/>
+										
+									</td>
+								</tr>
+							</table>
+						</form>
+					<div id = "prikaz">
+					</div>
+					</div>
+					<div id = "podaci_klub">
+					</div>
+				</div>
+			</div>
+			<div class = "cisti"></div>
+			<div id = "footer">
+				<a href = "milos.html"><b>Miloš Mićin 180/13</b></a>
+				<span>
+					<a href = "dokument.pdf"><b>Dokumentacija</b></a><br/>
+					<a href = "sitemap.xml"><b>Sitemap</b></a>
+				</span>
+			</div>
+		</div>
+	</BODY>
+</HTML>
